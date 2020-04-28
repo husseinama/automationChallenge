@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9783fcf0-d659-4fed-b83e-3528c7a20347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base/BaseMobileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MobileTests/UserLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/SideMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/SideMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testData1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testData1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MobileTests/UserLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MobileTests/UserLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/SideMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/SideMenuPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testData1.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testData1.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.UserLoginTest">
     <configuration name="DoctorsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationChallengeTask" />
       <extension name="coverage">
@@ -80,8 +84,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationChallengeTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MobileTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MobileTests" />
+      <option name="MAIN_CLASS_NAME" value="MobileTests.UserLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginTest.UserCanLoginWithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationChallengeTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MobileTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MobileTests" />
+      <option name="MAIN_CLASS_NAME" value="MobileTests.UserLoginTest" />
+      <option name="METHOD_NAME" value="UserCanLoginWithValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserLoginTest" />
+        <item itemvalue="TestNG.UserLoginTest.UserCanLoginWithValidCredentials" />
         <item itemvalue="TestNG.DoctorsTests" />
       </list>
     </recent_temporary>
