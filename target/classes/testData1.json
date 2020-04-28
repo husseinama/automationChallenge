@@ -1,0 +1,10 @@
+{
+  "test1": {
+    "username": "add invalid mail",
+    "password": ""
+  },
+  "test2": {
+    "username": "add valid mail",
+    "password": "add valid password"
+  }
+}
